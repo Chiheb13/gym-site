@@ -1,0 +1,26 @@
+body {
+    background-image: url('/projetserveur/images/karsten-winegeart-eGSBVVtVCCw-unsplash.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: #fff; 
+}
+.container {
+    margin-top: 100px;
+}
+.login-form {
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 20px;
+    border-radius: 10px;
+}
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    border-radius: 5px;
+}
+.login-form button {
+    background-color: #007BFF; 
+    color: #fff;
+}

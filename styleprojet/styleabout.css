@@ -1,0 +1,23 @@
+.hero {
+    background-color: #f8f9fa; 
+    padding: 100px 0; 
+    text-align: center;
+}
+
+.features {
+    padding: 80px 0;
+    background-color: #ffffff;
+}
+
+.features h2 {
+    margin-bottom: 40px; 
+}
+
+.feature {
+    margin-bottom: 40px; 
+}
+
+.contact {
+    padding: 80px 0; 
+    background-color: #f8f9fa; 
+}

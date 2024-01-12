@@ -1,0 +1,59 @@
+body{
+    background-image: url('/projetserveur/images/sport.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.sport-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+    text-align: center;
+    max-width: 300px;
+    width: 100%;
+}
+
+.sport-card:hover {
+    transform: scale(1.06);
+}
+
+.sport-card img {
+    width: 100%;
+    height: 320px;;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.sport-card p a {
+    color: #007bff;
+    
+}
+
+.sport-card p a:hover {
+    text-decoration: underline;
+}
+.sport-container {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.sport-card p {
+            font-size: 18px; 
+            font-weight: bold; 
+            color: #333; 
+            margin-top: 10px;
+            font-style: italic; 
+        }
+.page-title {
+            font-size: 36px;
+            font-weight: bold;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            color: #F5F5DC;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }

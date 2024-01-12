@@ -1,0 +1,211 @@
+*{padding: 0px;
+    margin: 0px;}
+    html {
+position: relative;
+min-height: 100%;
+}
+
+body {
+margin-bottom: 250px; 
+}
+
+footer {
+position: absolute;
+bottom: 0;
+width: 100%;
+height: 250px;
+}
+.ecrit{
+font-weight:bold;
+}
+
+    .background-carousel {
+        width: 100%;
+        height: 120vh;
+        background-image: url('/projetserveur/images/i-yunmai-Jus9GbnqhYQ-unsplash.jpg'); /* Change the URL to your image */
+        background-size: cover;
+        background-position: center;
+        transition: background-image 2s ease-in-out;
+    } 
+    .coach-container {
+        text-align: center;
+        padding-top: 100px;
+        display: none;
+    }
+
+    .coach-card {
+        display: inline-block;
+        margin: 10px;
+    }
+
+    .coach-card img {
+        width: 200px;
+        height: 250px;
+        border-radius: 10%;
+        margin-bottom: 10px;
+    }
+
+    p a:hover, p a:active {
+        font-size: 20px;
+        text-decoration: none;
+    } 
+  
+    p a {
+        color: white;
+        text-decoration: none;
+        border-radius: 3px;
+    }
+    .motivation-text {
+position: absolute;
+top: 14%;
+left: 15%;
+transform: translate(-50%, -50%);
+text-align: center;
+color: white;
+text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+z-index: 9999;
+background-color: rgba(0, 0, 0, 0.3); 
+padding: 20px; 
+border-radius: 10px;
+width: 60%;
+margin-left:35%;
+margin-right: 10%;
+}
+.btn-get-started {
+transition: background-color 0.3s ease;
+        position: absolute;
+        bottom: 1450px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color:DarkRed;
+        
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+        color:white;
+    }
+
+.btn-get-started:hover {
+background-color: gold;
+}
+#buttton-get-started{
+text-decoration:none;
+color:white;
+}
+#buttton-get-started:hover{
+color:black;
+}
+.top-right {
+
+position: absolute;
+        top: -15px;
+        left: -230px;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.3);
+        height:70px;
+        width:80px;
+
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: Gray;
+min-width: 80px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+border-radius: 15px;
+}
+
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content a:hover {
+background-color: #ddd;
+}
+
+
+    .show {
+display: block;
+right: 3px;
+margin-left:-110px;
+margin-top:20px;
+}
+.dropbtn {
+padding: 0;
+margin-right: 10px; 
+margin-left: 10px; 
+border: none;
+cursor: pointer;
+width: 30px;
+height: 30px;
+text-align: center;
+text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+font-weight: bold;
+background-color: LightGray;
+border-radius: 50%;
+transition: background-color 0.3s ease;
+text-decoration: none;
+color: white;
+}
+
+.dropbtn:hover {
+background-color: red;
+}
+.top-right .font-weight-bold {
+margin-right: 10px;
+}
+.hamburger-menu {
+background-color: transparent;
+font-size: 14px;
+cursor: pointer;
+padding: 10px;
+color: white;
+}
+.toggle-button {
+position: fixed;
+top: 20px; 
+left: 20px; 
+z-index: 9999;
+}
+
+
+
+.sidebar {
+        width: 200px;
+        height: 80vh;
+        background-color: #333;
+        color: white;
+        transition: transform 0.3s ease;
+        transform: translateX(-280px);
+    }
+
+    
+
+    .toggle-button {
+        cursor: pointer;
+    }
+    .logo-container {
+        position: absolute;
+        top: -15px;
+        left: -230px;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.3);
+        height:70px;
+        width:80px; 
+    }
+    .custom-container-bg {
+background-color: #333; 
+}
+.custom-footer {
+width: 100%; 
+max-width: 100%; 
+bottom: 0;
+;
+
+}
+.texting{
+color:grey;
+}
